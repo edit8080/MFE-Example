@@ -1,0 +1,33 @@
+{
+  "name": "remotelib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "serve -l tcp://localhost:3001 dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.15.5",
+    "@babel/preset-react": "7.14.5",
+    "@telenko/node-mf": "0.0.5",
+    "babel-loader": "8.2.2",
+    "bundle-loader": "0.5.6",
+    "css-loader": "6.3.0",
+    "html-webpack-plugin": "5.3.2",
+    "serve": "13.0",
+    "style-loader": "3.3.0",
+    "url-loader": "4.1.1",
+    "webpack": "5.61.0",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.2.1",
+    "webpack-merge": "5.8.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
