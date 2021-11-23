@@ -37,9 +37,12 @@ UsingBundleFile/page > yarn build
 ```
 
 3. /main의 dist 폴더에 2에서 빌드된 JS와 CSS 파일 복사
+```bash
+UsingBundleFile/page > cp -rf dist ../main
+```
 
 4. main 실행
-```
+```bash
 UsingBundleFile/main > yarn dev
 ```
 
