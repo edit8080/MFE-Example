@@ -1,6 +1,6 @@
 # RunTime Integration (with Bundle File)
 
-## 1. 방법
+## 1. 구성 방법
 
 1. 부분 컴포넌트 구성 : Webpack을 통해 CRA의 기본 페이지에 대해 번들링 파일을 구성합니다.
 2. 통합 환경 구성 : Next.js를 통해 구성한 SSR 프로젝트에 위에서 구성한 번들링 파일을 복사하여 저장합니다.
@@ -22,7 +22,30 @@
 },
 ```
 
-## 2. 장단점 분석
+## 2. 실행 방법
+
+1. page와 main 패키지 설치
+
+```bash
+UsingBundleFile/main > yarn
+UsingBundleFile/page > yarn
+```
+
+2. /page 빌드
+```bash
+UsingBundleFile/page > yarn build
+```
+
+3. /main의 dist 폴더에 2에서 빌드된 JS와 CSS 파일 복사
+
+4. main 실행
+```
+UsingBundleFile/main > yarn dev
+```
+
+5. localhost:3000/reactPage에서 CRA 기본 페이지가 출력되는지 확인하기
+
+## 3. 장단점 분석
 
 #### 장점
 
@@ -37,6 +60,6 @@
 - 용량이 큰 번들 파일을 import 해야함
 
 
-## 3. 구성 모습
+## 4. 구성 모습
 ![image](https://user-images.githubusercontent.com/30149272/142804169-7dc0dde8-1bf7-4deb-a95f-90569804ff4b.png)
 
