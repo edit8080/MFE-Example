@@ -3,7 +3,7 @@
 ## 1. 구성 과정
 
 1. 부분 컴포넌트 구성 : 부분 컴포넌트(/rotuer)에서 `react-router-dom` 을 사용해 SPA 라우팅을 구성합니다.
-2. Webpack 환경 구성 : Webpack의 Module Federation Plugin을 사용해 구성한 컴포넌트에 접근할 수 있는 지점을 구성합니다.
+2. Webpack 환경 구성 : Webpack의 [Module Federation Plugin](https://webpack.kr/concepts/module-federation/)을 사용해 구성한 컴포넌트에 접근할 수 있는 지점을 구성합니다.
 3. 통합 컴포넌트 구성 : 통합 컴포넌트(/main)에서 부분 컴포넌트를 통합하여 사용하기 위해 `bootstrap.js`를 구성합니다.
 4. 부분 컴포넌트 접근 : Webpack의 Module Federation Plugin으로 2번에서 구성한 지점으로 부분 컴포넌트에 접근합니다.
 5. 부분 컴포넌트 로딩 : 부분 컴포넌트를 동적으로 로딩해야하므로 `@loadable/component`를 통해 컴포넌트를 로딩합니다. 
@@ -53,4 +53,5 @@ UsingWebpackPlugin > yarn start
 - Webpack v5 사용 고정
 
 ## 4. 구성 모습
+![image](https://user-images.githubusercontent.com/30149272/142964620-2e9dc37f-c51b-4116-be0c-00d6773156c8.png)
 
