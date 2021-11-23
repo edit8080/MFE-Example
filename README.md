@@ -101,4 +101,4 @@
 ## 4. 참고 자료
 
 - https://martinfowler.com/articles/micro-frontends.html#Run-timeIntegrationViaJavascript
-
+- https://github.com/module-federation/module-federation-examples
