@@ -46,6 +46,7 @@ UsingWebpackPlugin > yarn start
 - 번들 파일을 빌드할 필요없이 Webpack 플러그인이 자동으로 구성
 - 부분 컴포넌트를 구성하기 위한 Webpack 설정이 어렵지 않음
 - hooks의 자유로운 사용
+- share을 통한 중복 모듈의 효율적 관리
 
 #### 단점
 
