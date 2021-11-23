@@ -1,4 +1,4 @@
-# RunTime Integration (with Bundle File)
+# BuildTime Integration (with Bundle File)
 
 ## 1. 구성 방법
 
@@ -65,4 +65,3 @@ UsingBundleFile/main > yarn dev
 
 ## 4. 구성 모습
 ![image](https://user-images.githubusercontent.com/30149272/142804169-7dc0dde8-1bf7-4deb-a95f-90569804ff4b.png)
-
