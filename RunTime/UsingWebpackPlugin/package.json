@@ -1,0 +1,14 @@
+{
+  "name": "using-webpack-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "kill-ports": "kill-port --port 8080, 8081",
+    "start": "yarn kill-ports && lerna run start --parallel"
+  },
+  "devDependencies": {
+    "kill-port": "^1.6.1",
+    "lerna": "4.0.0"
+  }
+}
